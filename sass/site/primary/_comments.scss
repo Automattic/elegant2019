@@ -40,7 +40,7 @@
 		}
 
 		.comments-title {
-		//	@include post-section-dash;
+			@include post-section-dash;
 			margin: 0;
 
 			@include media(tablet) {

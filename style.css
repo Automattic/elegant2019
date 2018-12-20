@@ -790,6 +790,20 @@ h6 {
   margin: 1rem 0;
 }
 
+h1:not(.site-title),
+h2 {
+  /*
+	&:before {
+		background: $color__text-light;
+		content: "\020";
+		display: block;
+		height: 2px;
+		margin: $size__spacing-unit 0;
+		width: 1em;
+	}
+*/
+}
+
 hr {
   background-color: #767676;
   border: 0;
@@ -2397,6 +2411,16 @@ body.page .main-navigation {
 }
 
 .entry .entry-title {
+  /*
+	&:before {
+		background: $color__text-light;
+		content: "\020";
+		display: block;
+		height: 2px;
+		margin: $size__spacing-unit 0;
+		width: 1em;
+	}
+*/
   margin: 0;
 }
 
@@ -2666,16 +2690,17 @@ body.page .main-navigation {
 }
 
 .author-bio .author-title {
+  /*
+	&:before {
+		background: $color__text-light;
+		content: "\020";
+		display: block;
+		height: 2px;
+		margin: $size__spacing-unit 0;
+		width: 1em;
+	}
+*/
   display: inline;
-}
-
-.author-bio .author-title:before {
-  background: #767676;
-  content: "\020";
-  display: block;
-  height: 2px;
-  margin: 1rem 0;
-  width: 1em;
 }
 
 .author-bio .author-description {
@@ -2755,6 +2780,16 @@ body.page .main-navigation {
 }
 
 .comments-area .comments-title-wrap .comments-title {
+  /*
+	&:before {
+		background: $color__text-light;
+		content: "\020";
+		display: block;
+		height: 2px;
+		margin: $size__spacing-unit 0;
+		width: 1em;
+	}
+*/
   margin: 0;
 }
 
