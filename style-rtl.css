@@ -528,7 +528,6 @@ h3 {
 
 .site-title,
 .site-description,
-.main-navigation,
 .nav-links,
 .page-title,
 .page-description,
@@ -540,6 +539,12 @@ h4 {
   font-size: 1.25em;
 }
 
+.main-navigation,
+.site-description {
+  font-size: 22px;
+}
+
+.site-info,
 .pagination .nav-links,
 .comment-content,
 h5 {
@@ -549,8 +554,6 @@ h5 {
 .entry-meta,
 .entry-footer,
 .discussion-meta-info,
-.site-info,
-.site-description,
 .has-small-font-size,
 .comment-reply-link,
 .comment-metadata,
@@ -3219,15 +3222,20 @@ body.page .main-navigation {
 ## Footer
 --------------------------------------------------------------*/
 /* Site footer */
-#colophon .widget-area,
-#colophon .site-info {
+#colophon .widget-area {
   margin: calc(2 * 1rem) 1rem;
 }
 
 @media only screen and (min-width: 768px) {
-  #colophon .widget-area,
-  #colophon .site-info {
-    margin: calc(3 * 1rem) calc(10% + 60px);
+  #colophon .widget-area {
+    margin: calc(3 * 1rem) auto;
+    max-width: calc(8 * (100vw / 12) - 28px);
+  }
+}
+
+@media only screen and (min-width: 1168px) {
+  #colophon .widget-area {
+    max-width: calc(6 * (100vw / 12) - 28px);
   }
 }
 
@@ -3240,10 +3248,13 @@ body.page .main-navigation {
   width: 100%;
 }
 
-@media only screen and (min-width: 1168px) {
-  #colophon .widget-column .widget {
-    margin-left: calc(3 * 1rem);
-    width: calc(50% - (3 * 1rem));
+#colophon .site-info {
+  margin: calc(2 * 1rem) 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  #colophon .site-info {
+    margin: calc(3 * 1rem) calc(10% + 60px);
   }
 }
 

@@ -2,24 +2,33 @@
 
 #colophon {
 
-	.widget-area,
-	.site-info {
+	.widget-area {
 		margin: calc(2 * #{$size__spacing-unit}) $size__spacing-unit;
 
 		@include media(tablet) {
-			margin: calc(3 * #{$size__spacing-unit}) $size__site-margins;
+			margin: calc(3 * #{$size__spacing-unit}) auto;
+			max-width: calc(8 * (100vw / 12) - 28px);
+		}
+
+		@include media(desktop) {
+			max-width: calc(6 * (100vw / 12) - 28px);
 		}
 	}
 
 	.widget-column {
 		display: flex;
 		flex-wrap: wrap;
+
 		.widget {
 			width: 100%;
-			@include media(desktop) {
-				margin-right: calc(3 * #{$size__spacing-unit});
-				width: calc(50% - (3 * #{$size__spacing-unit}));
-			}
+		}
+	}
+
+	.site-info {
+		margin: calc(2 * #{$size__spacing-unit}) $size__spacing-unit;
+
+		@include media(tablet) {
+			margin: calc(3 * #{$size__spacing-unit}) $size__site-margins;
 		}
 	}
 

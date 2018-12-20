@@ -93,7 +93,6 @@ h3 {
 
 .site-title,
 .site-description,
-.main-navigation,
 .nav-links,
 .page-title,
 .page-description,
@@ -105,6 +104,12 @@ h4 {
 	font-size: $font__size-md;
 }
 
+.main-navigation,
+.site-description {
+	font-size: $font__size-base;
+}
+
+.site-info,
 .pagination .nav-links,
 .comment-content,
 h5 {
@@ -114,8 +119,6 @@ h5 {
 .entry-meta,
 .entry-footer,
 .discussion-meta-info,
-.site-info,
-.site-description,
 .has-small-font-size,
 .comment-reply-link,
 .comment-metadata,
