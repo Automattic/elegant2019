@@ -4170,6 +4170,15 @@ body.page .main-navigation {
   margin-top: -32px;
 }
 
+@media only screen and (min-width: 600px) {
+  .entry .entry-content .wp-block-media-text.has-media-on-the-right.is-stacked-on-mobile .wp-block-media-text__media {
+    grid-area: media-text-content;
+  }
+  .entry .entry-content .wp-block-media-text.has-media-on-the-right.is-stacked-on-mobile .wp-block-media-text__content {
+    grid-area: media-text-media;
+  }
+}
+
 .entry .entry-content .wp-block-columns.alignfull {
   padding-right: 1rem;
   padding-left: 1rem;
