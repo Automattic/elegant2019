@@ -2238,10 +2238,6 @@ body.page .main-navigation {
   .site-header.featured-image .site-featured-image .entry-header.has-discussion .entry-title {
     text-align: center;
   }
-  .site-header.featured-image .site-featured-image .entry-header.has-discussion .entry-meta .comment-count {
-    position: absolute;
-    left: 0;
-  }
   .site-header.featured-image .site-featured-image .entry-header.has-discussion .entry-meta .discussion-avatar-list {
     display: block;
     position: absolute;
