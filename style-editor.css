@@ -29,12 +29,6 @@ body .wp-block[data-align="full"] {
     max-width: 80%;
     margin: 0 10%;
   }
-  body .editor-post-title__block,
-  body .editor-default-block-appender,
-  body .editor-block-list__block {
-    margin-left: 0;
-    margin-right: 0;
-  }
   body .wp-block[data-align="wide"] {
     width: 100%;
   }
