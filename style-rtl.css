@@ -1632,14 +1632,13 @@ body.page .main-navigation {
 
 @media only screen and (min-width: 768px) {
   .post-navigation {
-    margin: calc(3 * 1rem) calc(10% + 60px);
-    max-width: calc(6 * (100vw / 12));
+    margin: calc(3 * 1rem) auto;
+    max-width: calc(8 * (100vw / 12) - 28px);
   }
 }
 
 @media only screen and (min-width: 1168px) {
   .post-navigation {
-    margin: calc(3 * 1rem) 0;
     max-width: 100%;
   }
 }
@@ -1660,7 +1659,7 @@ body.page .main-navigation {
 @media only screen and (min-width: 1168px) {
   .post-navigation .nav-links {
     flex-direction: row;
-    margin: 0 calc(10% + 60px);
+    margin: 0 auto;
     max-width: calc(6 * (100vw / 12) - 28px);
   }
 }
@@ -2733,7 +2732,7 @@ body.page .main-navigation {
 
 @media only screen and (min-width: 768px) {
   .comments-area {
-    margin: calc(3 * 1rem) calc(10% + 60px);
+    margin: calc(3 * 1rem) auto;
   }
 }
 
@@ -3487,14 +3486,6 @@ body.page .main-navigation {
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .entry .entry-content > *.aligncenter,
-  .entry .entry-summary > *.aligncenter {
-    margin-right: 0;
-    margin-left: 0;
-  }
-}
-
 /*
  * Unset nested content selector styles
  * - Prevents layout styles from cascading too deeply
@@ -4170,12 +4161,20 @@ body.page .main-navigation {
   margin-top: -32px;
 }
 
+.entry .entry-content .wp-block-media-text.has-media-on-the-right.is-stacked-on-mobile .wp-block-media-text__media {
+  grid-area: media-text-content;
+}
+
+.entry .entry-content .wp-block-media-text.has-media-on-the-right.is-stacked-on-mobile .wp-block-media-text__content {
+  grid-area: media-text-media;
+}
+
 @media only screen and (min-width: 600px) {
   .entry .entry-content .wp-block-media-text.has-media-on-the-right.is-stacked-on-mobile .wp-block-media-text__media {
-    grid-area: media-text-content;
+    grid-area: media-text-media;
   }
   .entry .entry-content .wp-block-media-text.has-media-on-the-right.is-stacked-on-mobile .wp-block-media-text__content {
-    grid-area: media-text-media;
+    grid-area: media-text-content;
   }
 }
 

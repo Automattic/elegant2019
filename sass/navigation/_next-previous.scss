@@ -6,12 +6,11 @@
 	margin: calc(3 * 1rem) 0;
 
 	@include media(tablet) {
-		margin: calc(3 * 1rem) $size__site-margins;
-		max-width: calc(6 * (100vw / 12));
+		margin: calc(3 * 1rem) auto;
+		max-width: calc(8 * (100vw / 12) - 28px);
 	}
 
 	@include media(desktop) {
-		margin: calc(3 * 1rem) 0;
 		max-width: 100%;
 	}
 
@@ -28,7 +27,7 @@
 
 		@include media(desktop) {
 			flex-direction: row;
-			margin: 0 $size__site-margins;
+			margin: 0 auto;
 			max-width: $size__site-desktop-content;
 		}
 

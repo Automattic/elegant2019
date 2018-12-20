@@ -1632,14 +1632,13 @@ body.page .main-navigation {
 
 @media only screen and (min-width: 768px) {
   .post-navigation {
-    margin: calc(3 * 1rem) calc(10% + 60px);
-    max-width: calc(6 * (100vw / 12));
+    margin: calc(3 * 1rem) auto;
+    max-width: calc(8 * (100vw / 12) - 28px);
   }
 }
 
 @media only screen and (min-width: 1168px) {
   .post-navigation {
-    margin: calc(3 * 1rem) 0;
     max-width: 100%;
   }
 }
@@ -1660,7 +1659,7 @@ body.page .main-navigation {
 @media only screen and (min-width: 1168px) {
   .post-navigation .nav-links {
     flex-direction: row;
-    margin: 0 calc(10% + 60px);
+    margin: 0 auto;
     max-width: calc(6 * (100vw / 12) - 28px);
   }
 }
@@ -2739,7 +2738,7 @@ body.page .main-navigation {
 
 @media only screen and (min-width: 768px) {
   .comments-area {
-    margin: calc(3 * 1rem) calc(10% + 60px);
+    margin: calc(3 * 1rem) auto;
   }
 }
 
@@ -2769,15 +2768,6 @@ body.page .main-navigation {
 
 .comments-area .comments-title-wrap .comments-title {
   margin: 0;
-}
-
-.comments-area .comments-title-wrap .comments-title:before {
-  background: #767676;
-  content: "\020";
-  display: block;
-  height: 2px;
-  margin: 1rem 0;
-  width: 1em;
 }
 
 @media only screen and (min-width: 768px) {
@@ -3496,14 +3486,6 @@ body.page .main-navigation {
   .entry .entry-content > *.aligncenter,
   .entry .entry-summary > *.aligncenter {
     max-width: calc(6 * (100vw / 12) - 28px);
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .entry .entry-content > *.aligncenter,
-  .entry .entry-summary > *.aligncenter {
-    margin-left: 0;
-    margin-right: 0;
   }
 }
 
