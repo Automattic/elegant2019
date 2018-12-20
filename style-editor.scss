@@ -581,10 +581,11 @@ figcaption,
 
 /** === Media & Text === */
 
-.wp-block-media-text {
+// Remove spacing between consecutive Media & Text blocks.
+[data-type="core/media-text"] {
 	background: $color__background-screen;
 
-	& + .wp-block-media-text {
+	& + [data-type="core/media-text"] {
 		margin-top: -32px;
 	}
 }

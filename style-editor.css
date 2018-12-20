@@ -594,11 +594,11 @@ figcaption,
 }
 
 /** === Media & Text === */
-.wp-block-media-text {
+[data-type="core/media-text"] {
   background: #f7f7f7;
 }
 
-.wp-block-media-text + .wp-block-media-text {
+[data-type="core/media-text"] + [data-type="core/media-text"] {
   margin-top: -32px;
 }
 
