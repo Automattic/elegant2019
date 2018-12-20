@@ -4056,8 +4056,10 @@ body.page .main-navigation {
   background-color: #ccc;
   border: 0;
   height: 2px;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-top: 3rem;
+  margin-right: auto;
   max-width: 3.25em;
   text-align: center;
   /* Remove duplicate rule-line when a separator
