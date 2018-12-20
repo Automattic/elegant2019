@@ -1728,6 +1728,7 @@ body.page .main-navigation {
 .pagination .nav-links {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 0 calc(.5 * 1rem);
 }
 
@@ -1766,6 +1767,7 @@ body.page .main-navigation {
 @media only screen and (min-width: 768px) {
   .pagination .nav-links {
     margin-left: calc(10% + 60px);
+    margin-right: calc(10% + 60px);
     padding: 0;
   }
   .pagination .nav-links .prev > *,
@@ -2243,11 +2245,6 @@ body.page .main-navigation {
   }
   .site-header.featured-image .site-featured-image .entry-header.has-discussion .entry-title {
     text-align: center;
-  }
-  .site-header.featured-image .site-featured-image .entry-header.has-discussion .entry-meta .discussion-avatar-list {
-    display: block;
-    position: absolute;
-    bottom: 100%;
   }
 }
 
