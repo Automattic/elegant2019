@@ -492,12 +492,12 @@ h6 {
 }
 
 h1 {
-  font-size: 1.545em;
+  font-size: 1.875em;
 }
 
 @media only screen and (min-width: 768px) {
   h1 {
-    font-size: 1.8025em;
+    font-size: 2.1875em;
   }
 }
 
@@ -506,7 +506,7 @@ h1 {
 .error-404 .page-title,
 .has-larger-font-size,
 h2 {
-  font-size: 1.2875em;
+  font-size: 1.5625em;
 }
 
 @media only screen and (min-width: 768px) {
@@ -515,7 +515,7 @@ h2 {
   .error-404 .page-title,
   .has-larger-font-size,
   h2 {
-    font-size: 1.545em;
+    font-size: 1.875em;
   }
 }
 
@@ -523,7 +523,7 @@ h2 {
 .has-large-font-size,
 .comments-title,
 h3 {
-  font-size: 1.2875em;
+  font-size: 1.5625em;
 }
 
 .site-title,
@@ -537,13 +537,13 @@ h3 {
 h2.author-title,
 p.author-bio,
 h4 {
-  font-size: 1.03em;
+  font-size: 1.25em;
 }
 
 .pagination .nav-links,
 .comment-content,
 h5 {
-  font-size: 0.97087em;
+  font-size: 0.8em;
 }
 
 .entry-meta,
@@ -559,7 +559,7 @@ h5 {
 #cancel-comment-reply-link,
 img:after,
 h6 {
-  font-size: 0.7767em;
+  font-size: 0.64em;
 }
 
 .page-title {
@@ -609,13 +609,13 @@ i {
 }
 
 blockquote cite {
-  font-size: 0.7767em;
+  font-size: 0.64em;
   font-style: normal;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
 }
 
 pre {
-  font-size: 0.97087em;
+  font-size: 0.8em;
   font-family: "Courier 10 Pitch", Courier, monospace;
   line-height: 1.8;
   overflow: auto;
@@ -625,7 +625,7 @@ code,
 kbd,
 tt,
 var {
-  font-size: 0.97087em;
+  font-size: 0.8em;
   font-family: Menlo, monaco, Consolas, Lucida Console, monospace;
 }
 
@@ -881,7 +881,7 @@ input[type="submit"] {
   box-sizing: border-box;
   color: #fff;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.97087em;
+  font-size: 0.8em;
   font-weight: 700;
   line-height: 1.2;
   outline: none;
@@ -1198,7 +1198,7 @@ body.page .main-navigation {
 
 .main-navigation .sub-menu > li.mobile-parent-nav-menu-item {
   display: none;
-  font-size: 0.97087em;
+  font-size: 0.8em;
   font-weight: normal;
 }
 
@@ -2688,7 +2688,7 @@ body.page .main-navigation {
 .author-bio .author-description {
   display: inline;
   color: #767676;
-  font-size: 1.03em;
+  font-size: 1.25em;
   line-height: 1.2;
 }
 
@@ -2854,7 +2854,7 @@ body.page .main-navigation {
 .comment-list .trackback .comment-body {
   color: #767676;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.7767em;
+  font-size: 0.64em;
   font-weight: 500;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -2863,7 +2863,7 @@ body.page .main-navigation {
 .comment-list .pingback .comment-body a:not(.comment-edit-link),
 .comment-list .trackback .comment-body a:not(.comment-edit-link) {
   font-weight: bold;
-  font-size: 21.35922px;
+  font-size: 17.6px;
   line-height: 1.5;
   padding-left: 0.5rem;
   display: block;
@@ -3089,7 +3089,7 @@ body.page .main-navigation {
 .comment-form .comment-notes,
 .comment-form label {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.7767em;
+  font-size: 0.64em;
   color: #767676;
 }
 
@@ -3293,7 +3293,7 @@ body.page .main-navigation {
 .widget_rss ul li {
   color: #767676;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: calc(22px * 1.03);
+  font-size: calc(22px * 1.25);
   font-weight: 700;
   line-height: 1.2;
   margin-top: 0.5rem;
@@ -3567,7 +3567,7 @@ body.page .main-navigation {
 .entry .entry-content .wp-block-button .wp-block-button__link {
   transition: background 150ms ease-in-out;
   border: none;
-  font-size: 0.97087em;
+  font-size: 0.8em;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   line-height: 1.2;
   box-sizing: border-box;
@@ -3641,7 +3641,7 @@ body.page .main-navigation {
 .entry .entry-content .wp-block-latest-posts li {
   color: #767676;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: calc(22px * 1.03);
+  font-size: calc(22px * 1.25);
   font-weight: bold;
   line-height: 1.2;
   padding-bottom: 0.75rem;
@@ -3700,7 +3700,7 @@ body.page .main-navigation {
 }
 
 .entry .entry-content .wp-block-preformatted {
-  font-size: 0.7767em;
+  font-size: 0.64em;
   line-height: 1.8;
   padding: 1rem;
 }
@@ -3713,7 +3713,7 @@ body.page .main-navigation {
 
 .entry .entry-content .has-drop-cap:not(:focus):first-letter {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 3.502em;
+  font-size: 4.25em;
   line-height: 1;
   font-weight: normal;
   margin: 0 0 0 0.25em;
@@ -3734,7 +3734,7 @@ body.page .main-navigation {
 }
 
 .entry .entry-content .wp-block-pullquote p {
-  font-size: 1.2875em;
+  font-size: 1.5625em;
   font-style: italic;
   line-height: 1.3;
   margin-bottom: 0.5em;
@@ -3747,7 +3747,7 @@ body.page .main-navigation {
 
 @media only screen and (min-width: 768px) {
   .entry .entry-content .wp-block-pullquote p {
-    font-size: 1.545em;
+    font-size: 1.875em;
   }
 }
 
@@ -3761,7 +3761,7 @@ body.page .main-navigation {
 			 * This requires a rem-based font size calculation instead of our normal em-based one,
 			 * because the cite tag sometimes gets wrapped in a p tag. This is equivalent to $font-size_xs.
 			 */
-  font-size: calc(1rem / (1.25 * 1.03));
+  font-size: calc(1rem / (1.25 * 1.25));
 }
 
 .entry .entry-content .wp-block-pullquote.alignleft, .entry .entry-content .wp-block-pullquote.alignright {
@@ -3790,7 +3790,7 @@ body.page .main-navigation {
 }
 
 .entry .entry-content .wp-block-pullquote.is-style-solid-color p {
-  font-size: 1.2875em;
+  font-size: 1.5625em;
   line-height: 1.3;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
@@ -3798,7 +3798,7 @@ body.page .main-navigation {
 
 @media only screen and (min-width: 768px) {
   .entry .entry-content .wp-block-pullquote.is-style-solid-color p {
-    font-size: 1.545em;
+    font-size: 1.875em;
   }
 }
 
@@ -3853,7 +3853,7 @@ body.page .main-navigation {
 			 * This requires a rem-based font size calculation instead of our normal em-based one,
 			 * because the cite tag sometimes gets wrapped in a p tag. This is equivalent to $font-size_xs.
 			 */
-  font-size: calc(1rem / (1.25 * 1.03));
+  font-size: calc(1rem / (1.25 * 1.25));
 }
 
 .entry .entry-content .wp-block-quote.is-large, .entry .entry-content .wp-block-quote.is-style-large {
@@ -3863,7 +3863,7 @@ body.page .main-navigation {
 }
 
 .entry .entry-content .wp-block-quote.is-large p, .entry .entry-content .wp-block-quote.is-style-large p {
-  font-size: 1.2875em;
+  font-size: 1.5625em;
   line-height: 1.4;
   font-style: italic;
 }
@@ -3875,7 +3875,7 @@ body.page .main-navigation {
 				 * This requires a rem-based font size calculation instead of our normal em-based one,
 				 * because the cite tag sometimes gets wrapped in a p tag. This is equivalent to $font-size_xs.
 				 */
-  font-size: calc(1rem / (1.25 * 1.03));
+  font-size: calc(1rem / (1.25 * 1.25));
 }
 
 @media only screen and (min-width: 768px) {
@@ -3884,7 +3884,7 @@ body.page .main-navigation {
     padding: 1rem 0;
   }
   .entry .entry-content .wp-block-quote.is-large p, .entry .entry-content .wp-block-quote.is-style-large p {
-    font-size: 1.2875em;
+    font-size: 1.5625em;
   }
 }
 
@@ -3936,7 +3936,7 @@ body.page .main-navigation {
 .entry .entry-content .wp-block-cover .wp-block-cover-text,
 .entry .entry-content .wp-block-cover h2 {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 1.2875em;
+  font-size: 1.5625em;
   font-weight: bold;
   line-height: 1.25;
   padding: 0;
@@ -3954,7 +3954,7 @@ body.page .main-navigation {
   .entry .entry-content .wp-block-cover .wp-block-cover-image-text,
   .entry .entry-content .wp-block-cover .wp-block-cover-text,
   .entry .entry-content .wp-block-cover h2 {
-    font-size: 1.545em;
+    font-size: 1.875em;
     max-width: 100%;
   }
 }
@@ -4026,7 +4026,7 @@ body.page .main-navigation {
 .entry .entry-content .wp-block-image figcaption,
 .entry .entry-content .wp-block-gallery .blocks-gallery-image figcaption,
 .entry .entry-content .wp-block-gallery .blocks-gallery-item figcaption {
-  font-size: 0.7767em;
+  font-size: 0.64em;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   line-height: 1.6;
   margin: 0;
@@ -4092,9 +4092,9 @@ body.page .main-navigation {
 .entry .entry-content .wp-block-separator.is-style-dots:before,
 .entry .entry-content hr.is-style-dots:before {
   color: #767676;
-  font-size: 1.2875em;
-  letter-spacing: 0.97087em;
-  padding-right: 0.97087em;
+  font-size: 1.5625em;
+  letter-spacing: 0.8em;
+  padding-right: 0.8em;
 }
 
 .entry .entry-content .wp-block-separator + h1:before,
@@ -4157,7 +4157,7 @@ body.page .main-navigation {
 }
 
 .entry .entry-content .wp-block-code code {
-  font-size: 1.03em;
+  font-size: 1.25em;
   white-space: pre-wrap;
   word-break: break-word;
 }
@@ -4211,23 +4211,23 @@ body.page .main-navigation {
 }
 
 .entry .entry-content .wp-block-latest-comments.has-dates .wp-block-latest-comments__comment-date {
-  font-size: 0.7767em;
+  font-size: 0.64em;
 }
 
 .entry .entry-content .has-small-font-size {
-  font-size: 0.97087em;
+  font-size: 0.8em;
 }
 
 .entry .entry-content .has-normal-font-size {
-  font-size: 1.03em;
+  font-size: 1.25em;
 }
 
 .entry .entry-content .has-large-font-size {
-  font-size: 1.2875em;
+  font-size: 1.5625em;
 }
 
 .entry .entry-content .has-huge-font-size {
-  font-size: 1.545em;
+  font-size: 1.875em;
 }
 
 .entry .entry-content .has-primary-background-color,
@@ -4403,7 +4403,7 @@ svg {
 
 .wp-caption-text {
   color: #767676;
-  font-size: 0.7767em;
+  font-size: 0.64em;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   line-height: 1.6;
   margin: 0;
@@ -4500,7 +4500,7 @@ svg {
 
 .gallery-caption {
   display: block;
-  font-size: 0.7767em;
+  font-size: 0.64em;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   line-height: 1.6;
   margin: 0;

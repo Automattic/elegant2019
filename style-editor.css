@@ -97,10 +97,12 @@ h5,
 h6 {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   font-weight: 700;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 h1 {
-  font-size: 1.545em;
+  font-size: 1.875em;
 }
 
 h1:before {
@@ -114,12 +116,12 @@ h1:before {
 
 @media only screen and (min-width: 768px) {
   h1 {
-    font-size: 1.8025em;
+    font-size: 2.1875em;
   }
 }
 
 h2 {
-  font-size: 1.2875em;
+  font-size: 1.5625em;
 }
 
 h2:before {
@@ -133,24 +135,24 @@ h2:before {
 
 @media only screen and (min-width: 768px) {
   h2 {
-    font-size: 1.545em;
+    font-size: 1.875em;
   }
 }
 
 h3 {
-  font-size: 1.2875em;
+  font-size: 1.5625em;
 }
 
 h4 {
-  font-size: 1.03em;
+  font-size: 1.25em;
 }
 
 h5 {
-  font-size: 0.97087em;
+  font-size: 0.8em;
 }
 
 h6 {
-  font-size: 0.7767em;
+  font-size: 0.64em;
 }
 
 a {
@@ -229,7 +231,7 @@ a:focus {
 figcaption,
 .gallery-caption {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.7767em;
+  font-size: 0.64em;
   line-height: 1.6;
   color: #767676;
 }
@@ -245,7 +247,7 @@ figcaption,
 }
 
 .editor-post-title__block:before {
-  width: 1.8025em;
+  width: 2.1875em;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 1em;
@@ -255,7 +257,7 @@ figcaption,
 
 .editor-post-title__block .editor-post-title__input {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 1.8025em;
+  font-size: 2.1875em;
   font-weight: 700;
 }
 
@@ -273,7 +275,7 @@ figcaption,
 /** === Paragraph === */
 .wp-block-paragraph.has-drop-cap:not(:focus)::first-letter {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 2.06em;
+  font-size: 2.5em;
   line-height: 1;
   font-weight: bold;
   margin: 0 0.25em 0 0;
@@ -292,7 +294,7 @@ figcaption,
 .wp-block-cover h2,
 .wp-block-cover .wp-block-cover-text {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 1.2875em;
+  font-size: 1.5625em;
   font-weight: bold;
   line-height: 1.4;
   padding-left: 1rem;
@@ -320,7 +322,7 @@ figcaption,
   }
   .wp-block-cover h2,
   .wp-block-cover .wp-block-cover-text {
-    font-size: 1.545em;
+    font-size: 1.875em;
   }
 }
 
@@ -371,7 +373,7 @@ figcaption,
 .wp-block-gallery .blocks-gallery-image figcaption,
 .wp-block-gallery .blocks-gallery-item figcaption,
 .wp-block-gallery .gallery-item .gallery-caption {
-  font-size: 0.7767em;
+  font-size: 0.64em;
   line-height: 1.6;
 }
 
@@ -379,7 +381,7 @@ figcaption,
 .wp-block-button .wp-block-button__link {
   line-height: 1.8;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.97087em;
+  font-size: 0.8em;
   font-weight: bold;
 }
 
@@ -410,13 +412,13 @@ figcaption,
 }
 
 .wp-block-quote.is-large, .wp-block-quote.is-style-large {
-  margin-top: 1.8025em;
-  margin-bottom: 1.8025em;
+  margin-top: 2.1875em;
+  margin-bottom: 2.1875em;
 }
 
 .wp-block-quote.is-large p,
 .wp-block-quote.is-style-large p {
-  font-size: 1.2875em;
+  font-size: 1.5625em;
   line-height: 1.3;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
@@ -426,7 +428,7 @@ figcaption,
 .wp-block-quote footer,
 .wp-block-quote .wp-block-quote__citation {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.7767em;
+  font-size: 0.64em;
   line-height: 1.6;
   color: #767676;
 }
@@ -483,7 +485,7 @@ figcaption,
 .wp-block[data-type="core/pullquote"][data-align="right"] blockquote > .block-library-pullquote__content .editor-rich-text__tinymce[data-is-empty="true"]::before,
 .wp-block[data-type="core/pullquote"][data-align="right"] blockquote > .editor-rich-text p,
 .wp-block[data-type="core/pullquote"][data-align="right"] p {
-  font-size: 1.2875em;
+  font-size: 1.5625em;
   font-style: italic;
   line-height: 1.3;
   margin-bottom: 0.5em;
@@ -500,7 +502,7 @@ figcaption,
   .wp-block[data-type="core/pullquote"][data-align="right"] blockquote > .block-library-pullquote__content .editor-rich-text__tinymce[data-is-empty="true"]::before,
   .wp-block[data-type="core/pullquote"][data-align="right"] blockquote > .editor-rich-text p,
   .wp-block[data-type="core/pullquote"][data-align="right"] p {
-    font-size: 1.545em;
+    font-size: 1.875em;
   }
 }
 
@@ -508,7 +510,7 @@ figcaption,
 .wp-block[data-type="core/pullquote"][data-align="left"] .wp-block-pullquote__citation,
 .wp-block[data-type="core/pullquote"][data-align="right"] .wp-block-pullquote__citation {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.7767em;
+  font-size: 0.64em;
   line-height: 1.6;
   text-transform: none;
 }
@@ -570,7 +572,7 @@ figcaption,
 .wp-block-file .wp-block-file__button {
   display: table;
   line-height: 1.8;
-  font-size: 0.97087em;
+  font-size: 0.8em;
   font-weight: bold;
   background-color: #0073aa;
   border-radius: 5px;
@@ -613,12 +615,12 @@ figcaption,
 }
 
 .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
-  width: 1.8025em;
+  width: 2.1875em;
 }
 
 .wp-block-separator.is-style-dots:before {
   color: #767676;
-  font-size: 1.2875em;
+  font-size: 1.5625em;
   letter-spacing: calc(2 * 1rem);
   padding-left: calc(2 * 1rem);
 }
@@ -643,7 +645,7 @@ ul.wp-block-archives li,
 .wp-block-latest-posts li {
   color: #767676;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: calc(22px * 1.03);
+  font-size: calc(22px * 1.25);
   font-weight: bold;
   line-height: 1.2;
   padding-bottom: 0.75rem;
@@ -726,14 +728,14 @@ ul.wp-block-archives li ul,
 }
 
 .wp-block-latest-comments .wp-block-latest-comments__comment-date {
-  font-size: 0.7767em;
+  font-size: 0.64em;
 }
 
 /** === Classic Editor === */
 /* Properly center-align captions in the classic-editor block */
 .wp-caption dd {
   color: #767676;
-  font-size: 0.7767em;
+  font-size: 0.64em;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   line-height: 1.6;
   margin: 0;
@@ -754,7 +756,7 @@ ul.wp-block-archives li ul,
 
 .wp-block-freeform blockquote cite {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.7767em;
+  font-size: 0.64em;
   font-style: normal;
   line-height: 1.6;
   color: #767676;

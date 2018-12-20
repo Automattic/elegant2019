@@ -103,6 +103,8 @@ h5,
 h6 {
 	font-family: $font__heading;
 	font-weight: 700;
+	padding-top: #{$size__spacing-unit * 2};
+	padding-bottom: #{$size__spacing-unit * 2};
 }
 
 h1 {
