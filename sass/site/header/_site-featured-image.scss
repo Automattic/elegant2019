@@ -157,10 +157,11 @@
 					.entry-meta {
 						display: flex;
 						position: relative;
+						justify-content: center;
 					}
 
 					.entry-title {
-						padding-right: calc(1 * (100vw / 12) + #{$size__spacing-unit});
+						text-align: center;
 					}
 
 					.entry-meta .comment-count {
