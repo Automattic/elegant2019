@@ -3433,7 +3433,7 @@ body.page .main-navigation {
 .entry .entry-content > *.alignfull,
 .entry .entry-summary > *.alignfull {
   position: relative;
-  right: -1rem;
+  right: 0;
   width: calc( 100% + (2 * 1rem));
   max-width: calc( 100% + (2 * 1rem));
   clear: both;

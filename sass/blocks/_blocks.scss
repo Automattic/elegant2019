@@ -32,7 +32,7 @@
 
 	&.alignfull {
 		position: relative;
-		left: calc( -#{$size__spacing-unit} + 1rem );
+		left: 0;
 		width: calc( 100% + (2 * #{$size__spacing-unit}) );
 		max-width: calc( 100% + (2 * #{$size__spacing-unit}) );
 		clear: both;

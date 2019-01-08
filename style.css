@@ -2381,6 +2381,7 @@ body.page .main-navigation {
   font-weight: bold;
   line-height: 1;
   padding: .25rem;
+  text-transform: uppercase;
   z-index: 1;
 }
 
@@ -3439,7 +3440,7 @@ body.page .main-navigation {
 .entry .entry-content > *.alignfull,
 .entry .entry-summary > *.alignfull {
   position: relative;
-  left: calc( -1rem + 1rem);
+  left: 0;
   width: calc( 100% + (2 * 1rem));
   max-width: calc( 100% + (2 * 1rem));
   clear: both;
