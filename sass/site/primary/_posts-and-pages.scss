@@ -102,10 +102,6 @@
 			margin: $size__spacing-unit auto calc(3 * #{$size__spacing-unit});
 			max-width: $size__site-tablet-content;
 		}
-
-		@include media(tablet) {
-			max-width: $size__site-desktop-content;
-		}
 	}
 
 	.post-thumbnail {
