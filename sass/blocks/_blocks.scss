@@ -32,7 +32,7 @@
 
 	&.alignfull {
 		position: relative;
-		left: 0;
+		left: calc( -#{$size__spacing-unit} + 1rem );
 		width: calc( 100% + (2 * #{$size__spacing-unit}) );
 		max-width: calc( 100% + (2 * #{$size__spacing-unit}) );
 		clear: both;
@@ -161,7 +161,7 @@
 			@include button-transition;
 			border: none;
 			font-size: $font__size-sm;
-			font-family: $font__heading;
+			font-family: $font__ui;
 			line-height: $font__line-height-heading;
 			box-sizing: border-box;
 			font-weight: bold;
@@ -663,7 +663,7 @@
 			border-radius: 5px;
 			background: $color__background-button;
 			font-size: $font__size-base;
-			font-family: $font__heading;
+			font-family: $font__ui;
 			line-height: $font__line-height-heading;
 			text-decoration: none;
 			font-weight: bold;
