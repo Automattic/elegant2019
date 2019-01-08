@@ -2478,7 +2478,7 @@ body.page .main-navigation {
 @media only screen and (min-width: 768px) {
   .entry .entry-footer {
     margin: 1rem auto calc(3 * 1rem);
-    max-width: calc(6 * (100vw / 12) - 28px);
+    max-width: calc(8 * (100vw / 12) - 28px);
   }
 }
 
@@ -3444,9 +3444,9 @@ body.page .main-navigation {
   .entry .entry-summary > *.alignfull {
     margin-top: calc(2 * 1rem);
     margin-bottom: calc(2 * 1rem);
-    right: calc( -12.5% - 75px);
+    right: calc( -12.5% - 75px + 1rem);
     width: calc( 125% + 150px);
-    max-width: calc( 125% + 150px);
+    max-width: calc( 125% + 150px - 2rem);
   }
 }
 

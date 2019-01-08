@@ -3439,7 +3439,7 @@ body.page .main-navigation {
 .entry .entry-content > *.alignfull,
 .entry .entry-summary > *.alignfull {
   position: relative;
-  left: -1rem;
+  left: calc( -1rem + 1rem);
   width: calc( 100% + (2 * 1rem));
   max-width: calc( 100% + (2 * 1rem));
   clear: both;
@@ -3450,9 +3450,9 @@ body.page .main-navigation {
   .entry .entry-summary > *.alignfull {
     margin-top: calc(2 * 1rem);
     margin-bottom: calc(2 * 1rem);
-    left: calc( -12.5% - 75px);
+    left: calc( -12.5% - 75px + 1rem);
     width: calc( 125% + 150px);
-    max-width: calc( 125% + 150px);
+    max-width: calc( 125% + 150px - 2rem);
   }
 }
 
