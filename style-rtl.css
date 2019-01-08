@@ -562,7 +562,7 @@ h5 {
 #cancel-comment-reply-link,
 img:after,
 h6 {
-  font-size: 0.64em;
+  font-size: 0.71111em;
 }
 
 .page-title {
@@ -612,7 +612,7 @@ i {
 }
 
 blockquote cite {
-  font-size: 0.64em;
+  font-size: 0.71111em;
   font-style: normal;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
 }
@@ -2375,6 +2375,7 @@ body.page .main-navigation {
   font-weight: bold;
   line-height: 1;
   padding: .25rem;
+  text-transform: uppercase;
   z-index: 1;
 }
 
@@ -2864,7 +2865,7 @@ body.page .main-navigation {
 .comment-list .trackback .comment-body {
   color: #767676;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.64em;
+  font-size: 0.71111em;
   font-weight: 500;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -3099,7 +3100,7 @@ body.page .main-navigation {
 .comment-form .comment-notes,
 .comment-form label {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.64em;
+  font-size: 0.8em;
   color: #767676;
 }
 
@@ -3710,7 +3711,7 @@ body.page .main-navigation {
 }
 
 .entry .entry-content .wp-block-preformatted {
-  font-size: 0.64em;
+  font-size: 0.71111em;
   line-height: 1.8;
   padding: 1rem;
 }
@@ -4036,7 +4037,7 @@ body.page .main-navigation {
 .entry .entry-content .wp-block-image figcaption,
 .entry .entry-content .wp-block-gallery .blocks-gallery-image figcaption,
 .entry .entry-content .wp-block-gallery .blocks-gallery-item figcaption {
-  font-size: 0.64em;
+  font-size: 0.71111em;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   line-height: 1.6;
   margin: 0;
@@ -4240,7 +4241,7 @@ body.page .main-navigation {
 }
 
 .entry .entry-content .wp-block-latest-comments.has-dates .wp-block-latest-comments__comment-date {
-  font-size: 0.64em;
+  font-size: 0.71111em;
 }
 
 .entry .entry-content .has-small-font-size {
@@ -4432,7 +4433,7 @@ svg {
 
 .wp-caption-text {
   color: #767676;
-  font-size: 0.64em;
+  font-size: 0.71111em;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   line-height: 1.6;
   margin: 0;
@@ -4529,7 +4530,7 @@ svg {
 
 .gallery-caption {
   display: block;
-  font-size: 0.64em;
+  font-size: 0.71111em;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   line-height: 1.6;
   margin: 0;

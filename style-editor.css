@@ -148,7 +148,7 @@ h5 {
 }
 
 h6 {
-  font-size: 0.64em;
+  font-size: 0.71111em;
 }
 
 a {
@@ -227,7 +227,7 @@ a:focus {
 figcaption,
 .gallery-caption {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.64em;
+  font-size: 0.71111em;
   line-height: 1.6;
   color: #767676;
 }
@@ -373,7 +373,7 @@ figcaption,
 .wp-block-gallery .blocks-gallery-image figcaption,
 .wp-block-gallery .blocks-gallery-item figcaption,
 .wp-block-gallery .gallery-item .gallery-caption {
-  font-size: 0.64em;
+  font-size: 0.71111em;
   line-height: 1.6;
 }
 
@@ -428,7 +428,7 @@ figcaption,
 .wp-block-quote footer,
 .wp-block-quote .wp-block-quote__citation {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.64em;
+  font-size: 0.71111em;
   line-height: 1.6;
   color: #767676;
 }
@@ -510,7 +510,7 @@ figcaption,
 .wp-block[data-type="core/pullquote"][data-align="left"] .wp-block-pullquote__citation,
 .wp-block[data-type="core/pullquote"][data-align="right"] .wp-block-pullquote__citation {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.64em;
+  font-size: 0.71111em;
   line-height: 1.6;
   text-transform: none;
 }
@@ -728,14 +728,14 @@ ul.wp-block-archives li ul,
 }
 
 .wp-block-latest-comments .wp-block-latest-comments__comment-date {
-  font-size: 0.64em;
+  font-size: 0.71111em;
 }
 
 /** === Classic Editor === */
 /* Properly center-align captions in the classic-editor block */
 .wp-caption dd {
   color: #767676;
-  font-size: 0.64em;
+  font-size: 0.71111em;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   line-height: 1.6;
   margin: 0;
@@ -756,7 +756,7 @@ ul.wp-block-archives li ul,
 
 .wp-block-freeform blockquote cite {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.64em;
+  font-size: 0.71111em;
   font-style: normal;
   line-height: 1.6;
   color: #767676;
