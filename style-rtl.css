@@ -3434,7 +3434,7 @@ body.page .main-navigation {
 .entry .entry-content > *.alignfull,
 .entry .entry-summary > *.alignfull {
   position: relative;
-  right: 0;
+  right: calc( -1rem + 1rem);
   width: calc( 100% + (2 * 1rem));
   max-width: calc( 100% + (2 * 1rem));
   clear: both;
@@ -3579,7 +3579,7 @@ body.page .main-navigation {
   transition: background 150ms ease-in-out;
   border: none;
   font-size: 0.8em;
-  font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   line-height: 1.2;
   box-sizing: border-box;
   font-weight: bold;
@@ -4137,7 +4137,7 @@ body.page .main-navigation {
   border-radius: 5px;
   background: #0073aa;
   font-size: 22px;
-  font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   line-height: 1.2;
   text-decoration: none;
   font-weight: bold;
