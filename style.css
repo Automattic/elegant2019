@@ -3416,6 +3416,12 @@ body.page .main-navigation {
   text-decoration: underline;
 }
 
+.widget_links li,
+.widget_jp_blogs_i_follow li,
+.widget_rss_links li {
+  font-family: inherit;
+}
+
 /* Blocks */
 /* !Block styles */
 .entry .entry-content > *,

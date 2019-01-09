@@ -1174,6 +1174,7 @@ body.page .main-navigation {
   padding-right: 0;
   position: absolute;
   opacity: 0;
+  text-align: right;
   right: -9999px;
   z-index: 99999;
 }
