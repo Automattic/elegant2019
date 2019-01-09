@@ -3169,6 +3169,7 @@ body.page .main-navigation {
 .search .page-header,
 .error404 .page-header {
   margin: 1rem 1rem calc(3 * 1rem);
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
