@@ -3586,7 +3586,12 @@ body.page .main-navigation {
   }
 }
 
-.entry .entry-content h1, .entry .entry-content h2, .entry .entry-content h3, .entry .entry-content h4, .entry .entry-content h5, .entry .entry-content h6 {
+.entry .entry-content > h1,
+.entry .entry-content > h2,
+.entry .entry-content > h3,
+.entry .entry-content > h4,
+.entry .entry-content > h5,
+.entry .entry-content > h6 {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
