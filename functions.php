@@ -23,6 +23,9 @@ function elegant2019_setup() {
 endif; // elegant2019_setup
 add_action( 'after_setup_theme', 'elegant2019_setup' );
 
+/**
+ * Google font URLs.
+ */
 function elegant2019_fonts_url() {
 
 	$fonts_url = '';

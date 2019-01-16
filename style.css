@@ -2100,6 +2100,7 @@ body.page .main-navigation {
 .site-description {
   color: #111;
   display: block;
+  font-size: 0.8em;
   font-weight: normal;
   margin: 0;
 }
