@@ -473,7 +473,6 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  letter-spacing: -0.02em;
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -572,10 +571,6 @@ h6 {
 .page-description,
 .page-links a {
   font-weight: bold;
-}
-
-.site-description {
-  letter-spacing: -0.01em;
 }
 
 .page-id-3669 .entry .entry-header {
@@ -1987,7 +1982,7 @@ body.page .main-navigation {
 ## Header
 --------------------------------------------------------------*/
 .site-header {
-  padding: 1em;
+  padding: 1.5em 1em 1em;
 }
 
 .site-header.featured-image {
@@ -2004,11 +1999,11 @@ body.page .main-navigation {
 @media only screen and (min-width: 768px) {
   .site-header {
     margin: 0;
-    padding: 3rem 0;
+    padding: 3rem 0 2rem;
   }
   .site-header.featured-image {
     min-height: 100vh;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -2100,9 +2095,9 @@ body.page .main-navigation {
 .site-description {
   color: #111;
   display: block;
-  font-size: 0.88889em;
+  font-size: 0.71111em;
   font-weight: normal;
-  margin: 0;
+  margin: 8px 0 0;
 }
 
 .site-header.featured-image {
@@ -3187,7 +3182,6 @@ body.page .main-navigation {
 .error404 .page-header .page-title {
   color: #767676;
   display: inline;
-  letter-spacing: normal;
 }
 
 .archive .page-header .page-title:before,

@@ -1,7 +1,7 @@
 // Site header
 
 .site-header {
-	padding: 1em;
+	padding: 1.5em 1em 1em;
 
 	&.featured-image {
 		display: flex;
@@ -16,11 +16,11 @@
 
 	@include media(tablet) {
 		margin: 0;
-		padding: 3rem 0;
+		padding: 3rem 0 2rem;
 
 		&.featured-image {
 			min-height: 100vh;
-			margin-bottom: 3rem;
+			margin-bottom: 2rem;
 		}
 	}
 }
@@ -118,7 +118,7 @@
 .site-description {
 	color: $color__text-main;
 	display: block;
-	font-size: $font__size-sm;
+	font-size: $font__size-xs;
 	font-weight: normal;
-	margin: 0;
+	margin: 8px 0 0;
 }

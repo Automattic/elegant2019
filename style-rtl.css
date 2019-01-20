@@ -492,12 +492,12 @@ h6 {
 }
 
 h1 {
-  font-size: 1.875em;
+  font-size: 2.25em;
 }
 
 @media only screen and (min-width: 768px) {
   h1 {
-    font-size: 2.1875em;
+    font-size: 2.8125em;
   }
 }
 
@@ -506,7 +506,7 @@ h1 {
 .error-404 .page-title,
 .has-larger-font-size,
 h2 {
-  font-size: 1.5625em;
+  font-size: 1.6875em;
 }
 
 @media only screen and (min-width: 768px) {
@@ -515,7 +515,7 @@ h2 {
   .error-404 .page-title,
   .has-larger-font-size,
   h2 {
-    font-size: 1.875em;
+    font-size: 2.25em;
   }
 }
 
@@ -523,7 +523,7 @@ h2 {
 .has-large-font-size,
 .comments-title,
 h3 {
-  font-size: 1.5625em;
+  font-size: 1.6875em;
 }
 
 .site-title,
@@ -536,7 +536,7 @@ h3 {
 h2.author-title,
 p.author-bio,
 h4 {
-  font-size: 1.25em;
+  font-size: 1.125em;
 }
 
 .main-navigation,
@@ -548,7 +548,7 @@ h4 {
 .pagination .nav-links,
 .comment-content,
 h5 {
-  font-size: 0.8em;
+  font-size: 0.88889em;
 }
 
 .entry-meta,
@@ -572,10 +572,6 @@ h6 {
 .page-description,
 .page-links a {
   font-weight: bold;
-}
-
-.site-description {
-  letter-spacing: -0.01em;
 }
 
 .page-id-3669 .entry .entry-header {
@@ -618,7 +614,7 @@ blockquote cite {
 }
 
 pre {
-  font-size: 0.8em;
+  font-size: 0.88889em;
   font-family: "Courier 10 Pitch", Courier, monospace;
   line-height: 1.8;
   overflow: auto;
@@ -628,7 +624,7 @@ code,
 kbd,
 tt,
 var {
-  font-size: 0.8em;
+  font-size: 0.88889em;
   font-family: Menlo, monaco, Consolas, Lucida Console, monospace;
 }
 
@@ -898,7 +894,7 @@ input[type="submit"] {
   box-sizing: border-box;
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-size: 0.8em;
+  font-size: 0.88889em;
   font-weight: 700;
   line-height: 1.2;
   outline: none;
@@ -1247,7 +1243,7 @@ body.page .main-navigation {
 
 .main-navigation .sub-menu > li.mobile-parent-nav-menu-item {
   display: none;
-  font-size: 0.8em;
+  font-size: 0.88889em;
   font-weight: normal;
 }
 
@@ -1981,7 +1977,7 @@ body.page .main-navigation {
 ## Header
 --------------------------------------------------------------*/
 .site-header {
-  padding: 1em;
+  padding: 1.5em 1em 1em;
 }
 
 .site-header.featured-image {
@@ -1998,11 +1994,11 @@ body.page .main-navigation {
 @media only screen and (min-width: 768px) {
   .site-header {
     margin: 0;
-    padding: 3rem 0;
+    padding: 3rem 0 2rem;
   }
   .site-header.featured-image {
     min-height: 100vh;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -2094,9 +2090,9 @@ body.page .main-navigation {
 .site-description {
   color: #111;
   display: block;
-  font-size: 0.8em;
+  font-size: 0.71111em;
   font-weight: normal;
-  margin: 0;
+  margin: 8px 0 0;
 }
 
 .site-header.featured-image {
@@ -2731,7 +2727,7 @@ body.page .main-navigation {
 .author-bio .author-description {
   display: inline;
   color: #767676;
-  font-size: 1.25em;
+  font-size: 1.125em;
   line-height: 1.2;
 }
 
@@ -2907,7 +2903,7 @@ body.page .main-navigation {
 .comment-list .pingback .comment-body a:not(.comment-edit-link),
 .comment-list .trackback .comment-body a:not(.comment-edit-link) {
   font-weight: bold;
-  font-size: 17.6px;
+  font-size: 19.55556px;
   line-height: 1.5;
   padding-left: 0.5rem;
   display: block;
@@ -3133,7 +3129,7 @@ body.page .main-navigation {
 .comment-form .comment-notes,
 .comment-form label {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 0.8em;
+  font-size: 0.88889em;
   color: #767676;
 }
 
@@ -3346,7 +3342,7 @@ body.page .main-navigation {
 .widget_rss ul li {
   color: #767676;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: calc(22px * 1.25);
+  font-size: calc(22px * 1.125);
   font-weight: 700;
   line-height: 1.2;
   margin-top: 0.5rem;
@@ -3623,7 +3619,7 @@ body.page .main-navigation {
 .entry .entry-content .wp-block-button .wp-block-button__link {
   transition: background 150ms ease-in-out;
   border: none;
-  font-size: 0.8em;
+  font-size: 0.88889em;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   line-height: 1.2;
   box-sizing: border-box;
@@ -3697,7 +3693,7 @@ body.page .main-navigation {
 .entry .entry-content .wp-block-latest-posts li {
   color: #767676;
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: calc(22px * 1.25);
+  font-size: calc(22px * 1.125);
   font-weight: bold;
   line-height: 1.2;
   padding-bottom: 0.75rem;
@@ -3769,7 +3765,7 @@ body.page .main-navigation {
 
 .entry .entry-content .has-drop-cap:not(:focus):first-letter {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 4.25em;
+  font-size: 5.7375em;
   line-height: 1;
   font-weight: normal;
   margin: 0 0 0 0.25em;
@@ -3790,7 +3786,7 @@ body.page .main-navigation {
 }
 
 .entry .entry-content .wp-block-pullquote p {
-  font-size: 1.5625em;
+  font-size: 1.6875em;
   font-style: italic;
   line-height: 1.3;
   margin-bottom: 0.5em;
@@ -3803,7 +3799,7 @@ body.page .main-navigation {
 
 @media only screen and (min-width: 768px) {
   .entry .entry-content .wp-block-pullquote p {
-    font-size: 1.875em;
+    font-size: 2.25em;
   }
 }
 
@@ -3817,7 +3813,7 @@ body.page .main-navigation {
 			 * This requires a rem-based font size calculation instead of our normal em-based one,
 			 * because the cite tag sometimes gets wrapped in a p tag. This is equivalent to $font-size_xs.
 			 */
-  font-size: calc(1rem / (1.25 * 1.25));
+  font-size: calc(1rem / (1.25 * 1.125));
 }
 
 .entry .entry-content .wp-block-pullquote.alignleft, .entry .entry-content .wp-block-pullquote.alignright {
@@ -3846,7 +3842,7 @@ body.page .main-navigation {
 }
 
 .entry .entry-content .wp-block-pullquote.is-style-solid-color p {
-  font-size: 1.5625em;
+  font-size: 1.6875em;
   line-height: 1.3;
   margin-bottom: 0.5em;
   margin-top: 0.5em;
@@ -3854,7 +3850,7 @@ body.page .main-navigation {
 
 @media only screen and (min-width: 768px) {
   .entry .entry-content .wp-block-pullquote.is-style-solid-color p {
-    font-size: 1.875em;
+    font-size: 2.25em;
   }
 }
 
@@ -3909,7 +3905,7 @@ body.page .main-navigation {
 			 * This requires a rem-based font size calculation instead of our normal em-based one,
 			 * because the cite tag sometimes gets wrapped in a p tag. This is equivalent to $font-size_xs.
 			 */
-  font-size: calc(1rem / (1.25 * 1.25));
+  font-size: calc(1rem / (1.25 * 1.125));
 }
 
 .entry .entry-content .wp-block-quote.is-large, .entry .entry-content .wp-block-quote.is-style-large {
@@ -3919,7 +3915,7 @@ body.page .main-navigation {
 }
 
 .entry .entry-content .wp-block-quote.is-large p, .entry .entry-content .wp-block-quote.is-style-large p {
-  font-size: 1.5625em;
+  font-size: 1.6875em;
   line-height: 1.4;
   font-style: italic;
 }
@@ -3931,7 +3927,7 @@ body.page .main-navigation {
 				 * This requires a rem-based font size calculation instead of our normal em-based one,
 				 * because the cite tag sometimes gets wrapped in a p tag. This is equivalent to $font-size_xs.
 				 */
-  font-size: calc(1rem / (1.25 * 1.25));
+  font-size: calc(1rem / (1.25 * 1.125));
 }
 
 @media only screen and (min-width: 768px) {
@@ -3940,7 +3936,7 @@ body.page .main-navigation {
     padding: 1rem 0;
   }
   .entry .entry-content .wp-block-quote.is-large p, .entry .entry-content .wp-block-quote.is-style-large p {
-    font-size: 1.5625em;
+    font-size: 1.6875em;
   }
 }
 
@@ -3992,7 +3988,7 @@ body.page .main-navigation {
 .entry .entry-content .wp-block-cover .wp-block-cover-text,
 .entry .entry-content .wp-block-cover h2 {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
-  font-size: 1.5625em;
+  font-size: 1.6875em;
   font-weight: bold;
   line-height: 1.25;
   padding: 0;
@@ -4010,7 +4006,7 @@ body.page .main-navigation {
   .entry .entry-content .wp-block-cover .wp-block-cover-image-text,
   .entry .entry-content .wp-block-cover .wp-block-cover-text,
   .entry .entry-content .wp-block-cover h2 {
-    font-size: 1.875em;
+    font-size: 2.25em;
     max-width: 100%;
   }
 }
@@ -4150,9 +4146,9 @@ body.page .main-navigation {
 .entry .entry-content .wp-block-separator.is-style-dots:before,
 .entry .entry-content hr.is-style-dots:before {
   color: #767676;
-  font-size: 1.5625em;
-  letter-spacing: 0.8em;
-  padding-right: 0.8em;
+  font-size: 1.6875em;
+  letter-spacing: 0.88889em;
+  padding-right: 0.88889em;
 }
 
 .entry .entry-content .wp-block-separator + h1:before,
@@ -4215,7 +4211,7 @@ body.page .main-navigation {
 }
 
 .entry .entry-content .wp-block-code code {
-  font-size: 1.25em;
+  font-size: 1.125em;
   white-space: pre-wrap;
   word-break: break-word;
 }
@@ -4290,7 +4286,7 @@ body.page .main-navigation {
 }
 
 .entry .entry-content .has-small-font-size {
-  font-size: 0.8em;
+  font-size: 0.88889em;
 }
 
 .entry .entry-content .has-normal-font-size {
@@ -4298,11 +4294,11 @@ body.page .main-navigation {
 }
 
 .entry .entry-content .has-large-font-size {
-  font-size: 1.5625em;
+  font-size: 1.6875em;
 }
 
 .entry .entry-content .has-huge-font-size {
-  font-size: 1.875em;
+  font-size: 2.25em;
 }
 
 .entry .entry-content .has-primary-background-color,
