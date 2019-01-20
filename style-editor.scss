@@ -96,8 +96,8 @@ h5,
 h6 {
 	font-family: $font__heading;
 	font-weight: 700;
-	padding-top: #{$size__spacing-unit * 2};
-	padding-bottom: #{$size__spacing-unit * 2};
+	margin-top: #{$size__spacing-unit * 3};
+	margin-bottom: #{$size__spacing-unit * 3};
 	text-align: center;
 }
 
@@ -598,7 +598,10 @@ figcaption,
 
 .wp-block-separator {
 
-	&:not(.is-style-dots) {
+	margin-top: #{$size__spacing-unit * 3};
+	margin-bottom: #{$size__spacing-unit * 3};
+
+s	&:not(.is-style-dots) {
 		border-bottom: 2px solid $color__background-hr;
 	}
 

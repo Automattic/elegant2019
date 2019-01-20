@@ -3576,8 +3576,8 @@ body.page .main-navigation {
 .entry .entry-content > h5,
 .entry .entry-content > h6 {
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .entry .entry-content p.has-background {
@@ -4092,9 +4092,9 @@ body.page .main-navigation {
   background-color: #ccc;
   border: 0;
   height: 2px;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   margin-right: auto;
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-left: auto;
   max-width: 3.25em;
   text-align: center;
@@ -4157,6 +4157,11 @@ body.page .main-navigation {
 .entry .entry-content hr + h1:before,
 .entry .entry-content hr + h2:before {
   display: none;
+}
+
+.entry .entry-content .wp-block-spacer {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .entry .entry-content .wp-block-embed-twitter {

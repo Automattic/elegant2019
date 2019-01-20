@@ -119,8 +119,8 @@
 	& > h5,
 	& > h6 {
 		text-align: center;
-		padding-top: #{$size__spacing-unit * 2};
-		padding-bottom: #{$size__spacing-unit * 2};
+		margin-top: #{$size__spacing-unit * 2};
+		margin-bottom: #{$size__spacing-unit * 2};
 	}
 
 	//! Paragraphs
@@ -607,9 +607,9 @@
 		background-color: $color__background-hr;
 		border: 0;
 		height: 2px;
-		margin-bottom: (3 * $size__spacing-unit);
+		margin-bottom: (2 * $size__spacing-unit);
 		margin-left: auto;
-		margin-top: (3 * $size__spacing-unit);
+		margin-top: (2 * $size__spacing-unit);
 		margin-right: auto;
 		max-width: 3.25em;
 		text-align: center;
@@ -644,6 +644,12 @@
 				display: none;
 			}
 		}
+	}
+
+	//! Separator
+	.wp-block-spacer {
+		margin-bottom: $size__spacing-unit;
+		margin-top: $size__spacing-unit;
 	}
 
 	//! Twitter Embed
