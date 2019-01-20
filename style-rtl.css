@@ -4049,6 +4049,9 @@ body.page .main-navigation {
   .entry .entry-content .wp-block-cover.alignfull {
     padding-right: calc(10% + 58px + 1rem);
     padding-left: calc(10% + 58px + 1rem);
+    right: calc( -12.5% - 75px);
+    width: calc( 125% + 150px);
+    max-width: calc( 125% + 150px);
   }
   .entry .entry-content .wp-block-cover-image.alignfull .wp-block-cover-image-text,
   .entry .entry-content .wp-block-cover-image.alignfull .wp-block-cover-text,
