@@ -32,17 +32,17 @@
 
 	&.alignfull {
 		position: relative;
-		left: calc( -#{$size__spacing-unit} + 1rem );
-		width: calc( 100% + (2 * #{$size__spacing-unit}) );
-		max-width: calc( 100% + (2 * #{$size__spacing-unit}) );
+		left: calc( -#{$size__spacing-unit} );
+		width: calc( 100% + #{$size__spacing-unit} );
+		max-width: calc( 100% + #{$size__spacing-unit} );
 		clear: both;
 
 		@include media(tablet) {
 			margin-top: calc(2 * #{$size__spacing-unit});
 			margin-bottom: calc(2 * #{$size__spacing-unit});
-			left: calc( -12.5% - 75px + 1rem );
+			left: calc( -12.5% - 75px );
 			width: calc( 125% + 150px );
-			max-width: calc( 125% + 150px - 2rem );
+			max-width: calc( 125% + 150px );
 		}
 	}
 
@@ -510,7 +510,7 @@
 	.wp-block-cover-image,
 	.wp-block-cover {
 		position: relative;
-		min-height: 430px;
+		min-height: 560px;
 		padding: $size__spacing-unit;
 
 		@include media(tablet) {
@@ -560,8 +560,8 @@
 			}
 
 			@include media(tablet) {
-				padding-left: calc(10% + 58px + (2 * #{$size__spacing-unit}));
-				padding-right: calc(10% + 58px + (2 * #{$size__spacing-unit}));
+				padding-left: calc(10% + 58px + #{$size__spacing-unit});
+				padding-right: calc(10% + 58px + #{$size__spacing-unit});
 
 				.wp-block-cover-image-text,
 				.wp-block-cover-text,
