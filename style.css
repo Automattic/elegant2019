@@ -3971,7 +3971,6 @@ body.page .main-navigation {
 
 .entry .entry-content .wp-block-cover-image,
 .entry .entry-content .wp-block-cover {
-  box-shadow: 0 0 0 1rem rgba(0, 0, 0, 0.03);
   position: relative;
   min-height: 430px;
   padding: 1rem;

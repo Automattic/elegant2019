@@ -473,7 +473,6 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  letter-spacing: -0.02em;
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3177,7 +3176,6 @@ body.page .main-navigation {
 .error404 .page-header .page-title {
   color: #767676;
   display: inline;
-  letter-spacing: normal;
 }
 
 .archive .page-header .page-title:before,
