@@ -3587,6 +3587,7 @@ body.page .main-navigation {
 .entry .entry-content > h4,
 .entry .entry-content > h5,
 .entry .entry-content > h6 {
+  text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }

@@ -118,6 +118,7 @@
 	& > h4,
 	& > h5,
 	& > h6 {
+		text-align: center;
 		padding-top: #{$size__spacing-unit * 2};
 		padding-bottom: #{$size__spacing-unit * 2};
 	}
