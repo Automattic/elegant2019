@@ -26,21 +26,21 @@ add_action( 'after_setup_theme', 'elegant2019_setup' );
 // Our filter callback function
 function elegant2019_primary_color_hue() {
 	// Hue
-	return 175;
+	return 330;
 }
 add_filter( 'twentynineteen_default_hue', 'elegant2019_primary_color_hue' );
 
 // Our filter callback function
 function elegant2019_primary_color_saturation() {
 	// Saturation
-	return 110;
+	return 53;
 }
 add_filter( 'twentynineteen_default_saturation', 'elegant2019_primary_color_saturation' );
 
 // Our filter callback function
 function elegant2019_primary_color_lightness() {
 	// Lightness
-	return 40;
+	return 50;
 }
 add_filter( 'twentynineteen_default_lightness', 'elegant2019_primary_color_lightness' );
 
