@@ -54,6 +54,11 @@ div.sharedaddy > *,
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
 }
 
+div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a {
+  font-size: 0.88889em;
+  font-weight: 700;
+}
+
 /**
  * Stats
  */

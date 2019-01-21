@@ -56,6 +56,11 @@ div.sharedaddy > *,
 	font-family: $font__body;
 }
 
+div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a {
+	font-size: $font__size-sm;
+	font-weight: 700;
+}
+
 /**
  * Stats
  */
