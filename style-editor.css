@@ -97,26 +97,6 @@ h6 {
 }
 
 h1 {
-  font-size: 1.6875em;
-  /*
-	&:before {
-		background: $color__text-light;
-		content: "\020";
-		display: block;
-		height: 2px;
-		margin: $size__spacing-unit 0;
-		width: 1em;
-	}
-*/
-}
-
-@media only screen and (min-width: 768px) {
-  h1 {
-    font-size: 2.25em;
-  }
-}
-
-h2 {
   font-size: 1.125em;
   /*
 	&:before {
@@ -131,8 +111,28 @@ h2 {
 }
 
 @media only screen and (min-width: 768px) {
-  h2 {
+  h1 {
     font-size: 1.6875em;
+  }
+}
+
+h2 {
+  font-size: 22px;
+  /*
+	&:before {
+		background: $color__text-light;
+		content: "\020";
+		display: block;
+		height: 2px;
+		margin: $size__spacing-unit 0;
+		width: 1em;
+	}
+*/
+}
+
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 1.125em;
   }
 }
 

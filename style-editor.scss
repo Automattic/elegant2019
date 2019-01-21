@@ -102,20 +102,20 @@ h6 {
 }
 
 h1 {
-	font-size: $font__size-lg;
-	@include post-section-dash;
-
-	@include media(tablet) {
-		font-size: $font__size-xl;
-	}
-}
-
-h2 {
 	font-size: $font__size-md;
 	@include post-section-dash;
 
 	@include media(tablet) {
 		font-size: $font__size-lg;
+	}
+}
+
+h2 {
+	font-size: $font__size-base;
+	@include post-section-dash;
+
+	@include media(tablet) {
+		font-size: $font__size-md;
 	}
 }
 
