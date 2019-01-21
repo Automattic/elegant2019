@@ -518,6 +518,7 @@ h2 {
   }
 }
 
+.site-title,
 .has-regular-font-size,
 .has-large-font-size,
 .comments-title,
@@ -525,7 +526,6 @@ h3 {
   font-size: 22px;
 }
 
-.site-title,
 .site-description,
 .nav-links,
 .page-title,
