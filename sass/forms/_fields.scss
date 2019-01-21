@@ -16,7 +16,8 @@ input[type="color"],
 textarea {
 	-webkit-backface-visibility: hidden;
 	background: $color__background-input;
-	border: solid 1px $color__border;
+	border: solid 1px #CCC;
+	border-radius: 3px;
 	box-sizing: border-box;
 	outline: none;
 	padding: #{.36 * $size__spacing-unit} #{.66 * $size__spacing-unit};
