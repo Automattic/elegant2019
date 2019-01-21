@@ -4101,14 +4101,14 @@ body.page .main-navigation {
 
 .entry .entry-content .wp-block-separator,
 .entry .entry-content hr {
-  background-color: #ccc;
+  background-color: #f1f1f1;
   border: 0;
   height: 2px;
   margin-bottom: 2rem;
   margin-left: auto;
   margin-top: 2rem;
   margin-right: auto;
-  max-width: 3.25em;
+  max-width: 5em;
   text-align: center;
   /* Remove duplicate rule-line when a separator
 		 * is followed by an H1, or H2 */

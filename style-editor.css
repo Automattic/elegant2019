@@ -612,12 +612,12 @@ figcaption,
   margin-bottom: 3rem;
 }
 
-s .wp-block-separator:not(.is-style-dots) {
-  border-bottom: 2px solid #ccc;
+.wp-block-separator:not(.is-style-dots) {
+  border-bottom: 2px solid #f1f1f1;
 }
 
 .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
-  width: 2.8125em;
+  width: 5em;
 }
 
 .wp-block-separator.is-style-dots:before {

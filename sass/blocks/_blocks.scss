@@ -604,14 +604,14 @@
 	//! Separator
 	.wp-block-separator,
 	hr {
-		background-color: $color__background-hr;
+		background-color: #f1f1f1;
 		border: 0;
 		height: 2px;
 		margin-bottom: (2 * $size__spacing-unit);
 		margin-left: auto;
 		margin-top: (2 * $size__spacing-unit);
 		margin-right: auto;
-		max-width: 3.25em;
+		max-width: 5em;
 		text-align: center;
 
 		&.is-style-wide {

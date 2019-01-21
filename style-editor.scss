@@ -601,12 +601,12 @@ figcaption,
 	margin-top: #{$size__spacing-unit * 3};
 	margin-bottom: #{$size__spacing-unit * 3};
 
-s	&:not(.is-style-dots) {
-		border-bottom: 2px solid $color__background-hr;
+	&:not(.is-style-dots) {
+		border-bottom: 2px solid #f1f1f1;
 	}
 
 	&:not(.is-style-wide):not(.is-style-dots) {
-		width: $font__size-xxl;
+		width: 5em;
 	}
 
 	&.is-style-dots:before {
