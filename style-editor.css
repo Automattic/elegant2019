@@ -601,6 +601,10 @@ figcaption,
   margin-top: -32px;
 }
 
+[data-type="core/media-text"] a {
+  color: inherit;
+}
+
 /** === Table === */
 .wp-block-table td, .wp-block-table th {
   border-color: #767676;
