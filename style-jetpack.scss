@@ -10,8 +10,13 @@
 .site-main #infinite-handle span button,
 .site-main #infinite-handle span button:hover,
 .site-main #infinite-handle span button:focus {
-	font-family: $font__body;
+	font-family: $font__ui;
+	background: $color__link;
 }
+
+.site-main #infinite-handle span button,
+.site-main #infinite-handle span button:hover,
+.site-main #infinite-handle span button:focus
 
 /**
  * Responsive Videos
