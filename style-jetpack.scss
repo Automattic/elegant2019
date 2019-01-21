@@ -21,9 +21,21 @@
  * Sharing
  */
 
+div.sharedaddy > *,
+#content div.sharedaddy > *,
+#main div.sharedaddy > * {
+	margin-bottom: $size__spacing-unit;
+}
+
 .entry div.sharedaddy h3.sd-title,
 .entry h3.sd-title {
 	font-family: $font__heading;
+}
+
+.entry div.sharedaddy h3.sd-title:before,
+.entry h3.sd-title:before,
+.entry #jp-relatedposts h3.jp-relatedposts-headline:before {
+	display: none;
 }
 
 /**
