@@ -485,7 +485,7 @@ h6 {
 .site-branding,
 .main-navigation ul.main-menu > li,
 .social-navigation,
-.author-description .author-bio,
+.author-bio .author-description,
 .nav-links {
   line-height: 1.25;
 }
@@ -522,6 +522,7 @@ h2 {
 .has-regular-font-size,
 .has-large-font-size,
 .comments-title,
+.author-description,
 h3 {
   font-size: 22px;
 }
@@ -945,13 +946,12 @@ textarea {
   -webkit-backface-visibility: hidden;
   background: #fff;
   border: solid 1px #CCC;
-  border-radius: 3px;
   box-sizing: border-box;
   outline: none;
   padding: 0.36rem 0.66rem;
   -webkit-appearance: none;
   outline-offset: 0;
-  border-radius: 0;
+  border-radius: 3px;
 }
 
 input[type="text"]:focus,
@@ -2723,8 +2723,6 @@ body.page .main-navigation {
 .author-bio .author-description {
   display: inline;
   color: #767676;
-  font-size: 1.125em;
-  line-height: 1.2;
 }
 
 .author-bio .author-description .author-link {

@@ -58,7 +58,7 @@ h6 {
 .site-branding,
 .main-navigation ul.main-menu > li,
 .social-navigation,
-.author-description .author-bio,
+.author-bio .author-description,
 .nav-links {
 	line-height: 1.25;
 }
@@ -87,6 +87,8 @@ h2 {
 .has-regular-font-size,
 .has-large-font-size,
 .comments-title,
+h2.author-title,
+.author-description,
 h3 {
 	font-size: $font__size-base;
 }
@@ -98,7 +100,6 @@ h3 {
 .page-description,
 .comment-author .fn,
 .no-comments,
-h2.author-title,
 p.author-bio,
 h4 {
 	font-size: $font__size-sm;
