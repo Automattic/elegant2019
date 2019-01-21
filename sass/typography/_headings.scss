@@ -92,6 +92,7 @@ h3 {
 }
 
 .site-description,
+.main-navigation,
 .nav-links,
 .page-title,
 .page-description,
@@ -101,11 +102,6 @@ h2.author-title,
 p.author-bio,
 h4 {
 	font-size: $font__size-sm;
-}
-
-.main-navigation,
-.site-description {
-	font-size: $font__size-base;
 }
 
 .site-info,

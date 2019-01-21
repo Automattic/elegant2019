@@ -527,6 +527,7 @@ h3 {
 }
 
 .site-description,
+.main-navigation,
 .nav-links,
 .page-title,
 .page-description,
@@ -536,11 +537,6 @@ h2.author-title,
 p.author-bio,
 h4 {
   font-size: 0.88889em;
-}
-
-.main-navigation,
-.site-description {
-  font-size: 22px;
 }
 
 .site-info,
@@ -3160,7 +3156,7 @@ body.page .main-navigation {
 .archive .page-header,
 .search .page-header,
 .error404 .page-header {
-  margin: 1rem 1rem calc(3 * 1rem);
+  margin: 1rem 1rem;
   text-align: center;
 }
 
@@ -3168,7 +3164,7 @@ body.page .main-navigation {
   .archive .page-header,
   .search .page-header,
   .error404 .page-header {
-    margin: 0 calc(10% + 60px) calc(10% + 60px);
+    margin: 0 calc(10% + 60px);
   }
 }
 
