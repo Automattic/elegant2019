@@ -3633,15 +3633,15 @@ body.page .main-navigation {
   color: white;
 }
 
-.entry .entry-content .wp-block-button .wp-block-button__link:hover {
+.entry .entry-content .wp-block-button .wp-block-button__link:not(.has-background):hover, .entry .entry-content .wp-block-button .wp-block-button__link:hover {
   color: white;
-  background: #111;
+  background-color: #111;
   cursor: pointer;
 }
 
 .entry .entry-content .wp-block-button .wp-block-button__link:focus {
   color: white;
-  background: #111;
+  background-color: #111;
   outline: thin dotted;
   outline-offset: -4px;
 }
