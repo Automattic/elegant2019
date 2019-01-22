@@ -89,18 +89,6 @@ function elegant2019_scripts() {
 add_action( 'wp_enqueue_scripts', 'elegant2019_scripts' );
 
 /**
- * Enqueue supplemental block editor scripts.
- */
-function elegant2019_block_editor_scripts() {
-
-	/**
-	 * Block Editor Scripts
-	 */
-	wp_enqueue_script( 'elegant2019-block-editor-filters', get_theme_file_uri( '/js/block-editor-filters.js' ), array(), '1.0', true );
-}
-add_action( 'enqueue_block_editor_assets', 'elegant2019_block_editor_scripts' );
-
-/**
  * Load extras.php file (if necessary).
  */
 require get_stylesheet_directory() . '/inc/extras.php';
