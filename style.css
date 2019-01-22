@@ -500,6 +500,7 @@ h1 {
   }
 }
 
+.site-title,
 .entry-title,
 .not-found .page-title,
 .error-404 .page-title,
@@ -509,6 +510,7 @@ h2 {
 }
 
 @media only screen and (min-width: 768px) {
+  .site-title,
   .entry-title,
   .not-found .page-title,
   .error-404 .page-title,
@@ -518,7 +520,6 @@ h2 {
   }
 }
 
-.site-title,
 .has-regular-font-size,
 .has-large-font-size,
 .comments-title,
