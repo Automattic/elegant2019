@@ -790,6 +790,8 @@
 	//! Latest Comments
 	.wp-block-latest-comments {
 
+		padding-left: 0;
+
 		.wp-block-latest-comments__comment-meta {
 			font-family: $font__heading;
 			font-weight: bold;

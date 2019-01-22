@@ -4286,6 +4286,10 @@ body.page .main-navigation {
   }
 }
 
+.entry .entry-content .wp-block-latest-comments {
+  padding-left: 0;
+}
+
 .entry .entry-content .wp-block-latest-comments .wp-block-latest-comments__comment-meta {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   font-weight: bold;
