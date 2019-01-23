@@ -4231,6 +4231,13 @@ body.page .main-navigation {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .entry .entry-content .wp-block-media-text.alignfull {
+    right: calc( -12.5% - 75px);
+    max-width: calc( 125% + 150px);
+  }
+}
+
 .entry .entry-content .wp-block-columns.alignfull {
   padding-right: 1rem;
   padding-left: 1rem;

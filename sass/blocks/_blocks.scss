@@ -749,6 +749,14 @@
 				}
 			}
 		}
+
+		&.alignfull {
+			@include media(tablet) {
+				left: calc( -12.5% - 75px );
+				max-width: calc( 125% + 150px );
+			}
+		}
+
 	}
 
 	//! Columns
