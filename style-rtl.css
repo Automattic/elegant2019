@@ -1022,7 +1022,7 @@ a:focus {
 /** === Main menu === */
 .main-navigation {
   display: block;
-  margin-top: 0.25rem;
+  margin-top: 1rem;
   /* Un-style buttons */
   /*
 	 * Sub-menu styles
