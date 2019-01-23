@@ -582,7 +582,23 @@ figcaption,
 
 // Remove spacing between consecutive Media & Text blocks.
 [data-type="core/media-text"] {
-	background: $color__background-screen;
+
+	.wp-block-media-text {
+		background: $color__background-screen;
+	}
+
+	.wp-block-heading {
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			text-align: inherit;
+			margin-bottom: $size__spacing-unit;
+			margin-top: $size__spacing-unit;
+		}
+	}
 
 	& + [data-type="core/media-text"] {
 		margin-top: -32px;

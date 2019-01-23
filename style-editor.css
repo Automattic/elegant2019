@@ -608,8 +608,19 @@ figcaption,
 }
 
 /** === Media & Text === */
-[data-type="core/media-text"] {
+[data-type="core/media-text"] .wp-block-media-text {
   background: #f7f7f7;
+}
+
+[data-type="core/media-text"] .wp-block-heading h1,
+[data-type="core/media-text"] .wp-block-heading h2,
+[data-type="core/media-text"] .wp-block-heading h3,
+[data-type="core/media-text"] .wp-block-heading h4,
+[data-type="core/media-text"] .wp-block-heading h5,
+[data-type="core/media-text"] .wp-block-heading h6 {
+  text-align: inherit;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 [data-type="core/media-text"] + [data-type="core/media-text"] {
