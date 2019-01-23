@@ -63,6 +63,7 @@ h6 {
 	line-height: 1.25;
 }
 
+.entry-title,
 h1 {
 	font-size: $font__size-md;
 
@@ -72,7 +73,6 @@ h1 {
 }
 
 .site-title,
-.entry-title,
 .not-found .page-title,
 .error-404 .page-title,
 .has-larger-font-size,
