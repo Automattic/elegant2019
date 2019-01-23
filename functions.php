@@ -16,12 +16,25 @@ if ( ! function_exists( 'elegant2019_setup' ) ) :
  * as indicating support for post thumbnails.
  */
 function elegant2019_setup() {
-	/*
-	 * Probably not necessary
+
+	/**
+	 * Add support for core custom logo.
+	 *
+	 * @link https://codex.wordpress.org/Theme_Logo
 	 */
+	add_theme_support(
+		'custom-logo',
+		array(
+			'height'      => 64,
+			'width'       => 190,
+			'flex-width'  => true,
+			'flex-height' => false,
+			'header-text' => array( 'site-title' ),
+		)
+	);
 }
 endif; // elegant2019_setup
-add_action( 'after_setup_theme', 'elegant2019_setup' );
+add_action( 'after_setup_theme', 'elegant2019_setup', 30 );
 
 // Our filter callback function
 function elegant2019_primary_color_hue() {
@@ -102,3 +115,8 @@ require get_stylesheet_directory() . '/inc/wpcom.php';
  * Load Jetpack compatibility file.
  */
 require get_stylesheet_directory() . '/inc/jetpack.php';
+
+/**
+ * Customizer additions.
+ */
+require get_stylesheet_directory() . '/inc/customizer.php';
