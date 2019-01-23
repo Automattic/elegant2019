@@ -255,7 +255,10 @@ figcaption,
 
 /** === Cover === */
 
-.wp-block-cover {
+.wp-block-cover,
+.wp-block-cover-image {
+
+	min-height: 560px;
 
 	h2,
 	.wp-block-cover-text {

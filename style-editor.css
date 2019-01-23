@@ -288,8 +288,15 @@ figcaption,
 }
 
 /** === Cover === */
+.wp-block-cover,
+.wp-block-cover-image {
+  min-height: 560px;
+}
+
 .wp-block-cover h2,
-.wp-block-cover .wp-block-cover-text {
+.wp-block-cover .wp-block-cover-text,
+.wp-block-cover-image h2,
+.wp-block-cover-image .wp-block-cover-text {
   font-family: "Source Serif Pro", "Baskerville Old Face", Garamond, "Times New Roman", serif;
   font-size: 1.6875em;
   font-weight: bold;
@@ -299,13 +306,17 @@ figcaption,
 }
 
 .wp-block-cover h2 strong,
-.wp-block-cover .wp-block-cover-text strong {
+.wp-block-cover .wp-block-cover-text strong,
+.wp-block-cover-image h2 strong,
+.wp-block-cover-image .wp-block-cover-text strong {
   font-weight: bolder;
 }
 
 @media only screen and (min-width: 768px) {
   .wp-block-cover h2,
-  .wp-block-cover .wp-block-cover-text {
+  .wp-block-cover .wp-block-cover-text,
+  .wp-block-cover-image h2,
+  .wp-block-cover-image .wp-block-cover-text {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -313,12 +324,15 @@ figcaption,
 }
 
 @media only screen and (min-width: 768px) {
-  .wp-block-cover {
+  .wp-block-cover,
+  .wp-block-cover-image {
     padding-left: 10%;
     padding-right: 10%;
   }
   .wp-block-cover h2,
-  .wp-block-cover .wp-block-cover-text {
+  .wp-block-cover .wp-block-cover-text,
+  .wp-block-cover-image h2,
+  .wp-block-cover-image .wp-block-cover-text {
     font-size: 2.25em;
   }
 }
