@@ -25,7 +25,7 @@ function elegant_business_setup() {
 	add_theme_support(
 		'custom-logo',
 		array(
-			'height'      => 64,
+			'height'      => 128,
 			'width'       => 190,
 			'flex-width'  => true,
 			'flex-height' => false,
