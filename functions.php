@@ -1,10 +1,10 @@
 <?php
 /**
- * Elegant (Twenty Nineteen) functions and definitions.
+ * Elegant Business functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Elegant_2019
+ * @package Elegant_Business
  */
 
 if ( ! function_exists( 'elegant_business_setup' ) ) :

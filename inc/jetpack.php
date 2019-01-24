@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.com/
  *
- * @package Elegant_2019
+ * @package Elegant_Business
  */
 
 /**
