@@ -2019,7 +2019,6 @@ body.page .main-navigation {
 
 @media only screen and (min-width: 768px) {
   .site-logo {
-    top: 4px;
     z-index: 999;
   }
 }
@@ -2031,6 +2030,7 @@ body.page .main-navigation {
 
 .site-logo .custom-logo-link .custom-logo {
   min-height: inherit;
+  vertical-align: top;
 }
 
 .site-title {
