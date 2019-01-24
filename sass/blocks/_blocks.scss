@@ -513,10 +513,11 @@
 	.wp-block-cover-image,
 	.wp-block-cover {
 		position: relative;
-		min-height: 560px;
+		min-height: 420px;
 		padding: $size__spacing-unit;
 
 		@include media(tablet) {
+			min-height: 560px;
 			padding: $size__spacing-unit 10%;
 		}
 

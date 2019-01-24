@@ -3919,13 +3919,14 @@ body.page .main-navigation {
 .entry .entry-content .wp-block-cover-image,
 .entry .entry-content .wp-block-cover {
   position: relative;
-  min-height: 560px;
+  min-height: 420px;
   padding: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
   .entry .entry-content .wp-block-cover-image,
   .entry .entry-content .wp-block-cover {
+    min-height: 560px;
     padding: 1rem 10%;
   }
 }
@@ -3968,21 +3969,21 @@ body.page .main-navigation {
   }
 }
 
-.entry .entry-content .wp-block-cover-image.alignleft .wp-block-cover-image-text,
-.entry .entry-content .wp-block-cover-image.alignleft .wp-block-cover-text,
-.entry .entry-content .wp-block-cover-image.alignleft h2,
-.entry .entry-content .wp-block-cover.alignleft .wp-block-cover-image-text,
-.entry .entry-content .wp-block-cover.alignleft .wp-block-cover-text,
-.entry .entry-content .wp-block-cover.alignleft h2 {
+.entry .entry-content .wp-block-cover-image.has-left-content .wp-block-cover-image-text,
+.entry .entry-content .wp-block-cover-image.has-left-content .wp-block-cover-text,
+.entry .entry-content .wp-block-cover-image.has-left-content h2,
+.entry .entry-content .wp-block-cover.has-left-content .wp-block-cover-image-text,
+.entry .entry-content .wp-block-cover.has-left-content .wp-block-cover-text,
+.entry .entry-content .wp-block-cover.has-left-content h2 {
   text-align: right;
 }
 
-.entry .entry-content .wp-block-cover-image.alignright .wp-block-cover-image-text,
-.entry .entry-content .wp-block-cover-image.alignright .wp-block-cover-text,
-.entry .entry-content .wp-block-cover-image.alignright h2,
-.entry .entry-content .wp-block-cover.alignright .wp-block-cover-image-text,
-.entry .entry-content .wp-block-cover.alignright .wp-block-cover-text,
-.entry .entry-content .wp-block-cover.alignright h2 {
+.entry .entry-content .wp-block-cover-image.has-right-content .wp-block-cover-image-text,
+.entry .entry-content .wp-block-cover-image.has-right-content .wp-block-cover-text,
+.entry .entry-content .wp-block-cover-image.has-right-content h2,
+.entry .entry-content .wp-block-cover.has-right-content .wp-block-cover-image-text,
+.entry .entry-content .wp-block-cover.has-right-content .wp-block-cover-text,
+.entry .entry-content .wp-block-cover.has-right-content h2 {
   text-align: left;
 }
 

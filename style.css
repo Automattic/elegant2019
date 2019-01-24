@@ -3931,13 +3931,14 @@ body.page .main-navigation {
 .entry .entry-content .wp-block-cover-image,
 .entry .entry-content .wp-block-cover {
   position: relative;
-  min-height: 560px;
+  min-height: 420px;
   padding: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
   .entry .entry-content .wp-block-cover-image,
   .entry .entry-content .wp-block-cover {
+    min-height: 560px;
     padding: 1rem 10%;
   }
 }

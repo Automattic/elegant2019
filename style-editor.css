@@ -290,7 +290,7 @@ figcaption,
 /** === Cover === */
 .wp-block-cover,
 .wp-block-cover-image {
-  min-height: 560px;
+  min-height: 420px;
 }
 
 .wp-block-cover h2,
@@ -326,6 +326,7 @@ figcaption,
 @media only screen and (min-width: 768px) {
   .wp-block-cover,
   .wp-block-cover-image {
+    min-height: 560px;
     padding-left: 10%;
     padding-right: 10%;
   }

@@ -258,7 +258,7 @@ figcaption,
 .wp-block-cover,
 .wp-block-cover-image {
 
-	min-height: 560px;
+	min-height: 420px;
 
 	h2,
 	.wp-block-cover-text {
@@ -281,6 +281,7 @@ figcaption,
 	}
 
 	@include media(tablet) {
+		min-height: 560px;
 		padding-left: 10%;
 		padding-right: 10%;
 
