@@ -12,7 +12,7 @@
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
-function elegant2019_customize_register( $wp_customize ) {
-    $wp_customize->get_control( 'header_text' )->label = __( 'Display Site Title', 'elegant2019' );
+function elegant_business_customize_register( $wp_customize ) {
+    $wp_customize->get_control( 'header_text' )->label = __( 'Display Site Title', 'elegant-business' );
 }
-add_action( 'customize_register', 'elegant2019_customize_register' );
+add_action( 'customize_register', 'elegant_business_customize_register' );

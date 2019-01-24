@@ -7,7 +7,7 @@
  * @package Elegant_2019
  */
 
-if ( ! function_exists( 'elegant2019_setup' ) ) :
+if ( ! function_exists( 'elegant_business_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -15,7 +15,7 @@ if ( ! function_exists( 'elegant2019_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function elegant2019_setup() {
+function elegant_business_setup() {
 
 	/**
 	 * Add support for core custom logo.
@@ -33,34 +33,34 @@ function elegant2019_setup() {
 		)
 	);
 }
-endif; // elegant2019_setup
-add_action( 'after_setup_theme', 'elegant2019_setup', 30 );
+endif; // elegant_business_setup
+add_action( 'after_setup_theme', 'elegant_business_setup', 30 );
 
 // Our filter callback function
-function elegant2019_primary_color_hue() {
+function elegant_business_primary_color_hue() {
 	// Hue
 	return 330;
 }
-add_filter( 'twentynineteen_default_hue', 'elegant2019_primary_color_hue' );
+add_filter( 'twentynineteen_default_hue', 'elegant_business_primary_color_hue' );
 
 // Our filter callback function
-function elegant2019_primary_color_saturation() {
+function elegant_business_primary_color_saturation() {
 	// Saturation
 	return 53;
 }
-add_filter( 'twentynineteen_default_saturation', 'elegant2019_primary_color_saturation' );
+add_filter( 'twentynineteen_default_saturation', 'elegant_business_primary_color_saturation' );
 
 // Our filter callback function
-function elegant2019_primary_color_lightness() {
+function elegant_business_primary_color_lightness() {
 	// Lightness
 	return 50;
 }
-add_filter( 'twentynineteen_default_lightness', 'elegant2019_primary_color_lightness' );
+add_filter( 'twentynineteen_default_lightness', 'elegant_business_primary_color_lightness' );
 
 /**
  * Google font URLs.
  */
-function elegant2019_fonts_url() {
+function elegant_business_fonts_url() {
 
 	$fonts_url = '';
 
@@ -68,7 +68,7 @@ function elegant2019_fonts_url() {
 	* supported by Open Sans, translate this to 'off'. Do not translate
 	* into your own language.
 	*/
-	$source_serif_pro = esc_html_x( 'on', 'Source Serif Pro font: on or off', 'elegant2019' );
+	$source_serif_pro = esc_html_x( 'on', 'Source Serif Pro font: on or off', 'elegant-business' );
 
 	if ( 'off' !== $source_serif_pro ) {
 		$font_families = array();
@@ -91,15 +91,15 @@ function elegant2019_fonts_url() {
 /**
  * Enqueue scripts and styles.
  */
-function elegant2019_scripts() {
+function elegant_business_scripts() {
 
 	/**
 	 * Styles
 	 */
-	wp_enqueue_style( 'elegant2019-fonts', elegant2019_fonts_url(), array(), null );
+	wp_enqueue_style( 'elegant-business-fonts', elegant_business_fonts_url(), array(), null );
 
 }
-add_action( 'wp_enqueue_scripts', 'elegant2019_scripts' );
+add_action( 'wp_enqueue_scripts', 'elegant_business_scripts' );
 
 /**
  * Load extras.php file (if necessary).

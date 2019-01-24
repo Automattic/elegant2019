@@ -490,18 +490,19 @@ h6 {
   line-height: 1.25;
 }
 
+.entry-title,
 h1 {
   font-size: 1.125em;
 }
 
 @media only screen and (min-width: 768px) {
+  .entry-title,
   h1 {
     font-size: 1.6875em;
   }
 }
 
 .site-title,
-.entry-title,
 .not-found .page-title,
 .error-404 .page-title,
 .has-larger-font-size,
@@ -511,7 +512,6 @@ h2 {
 
 @media only screen and (min-width: 768px) {
   .site-title,
-  .entry-title,
   .not-found .page-title,
   .error-404 .page-title,
   .has-larger-font-size,

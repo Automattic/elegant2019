@@ -12,7 +12,7 @@
  *
  * @global array $themecolors
  */
-function elegant2019_wpcom_setup() {
+function elegant_business_wpcom_setup() {
 	global $themecolors;
 
 	// Set theme colors for third party services.
@@ -35,4 +35,4 @@ function elegant2019_wpcom_setup() {
 		);
 	}
 }
-add_action( 'after_setup_theme', 'elegant2019_wpcom_setup' );
+add_action( 'after_setup_theme', 'elegant_business_wpcom_setup' );
