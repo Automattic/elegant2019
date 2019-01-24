@@ -546,6 +546,22 @@
 			}
 		}
 
+		&.has-left-content {
+			.wp-block-cover-image-text,
+			.wp-block-cover-text,
+			h2 {
+				text-align: left;
+			}
+		}
+
+		&.has-right-content {
+			.wp-block-cover-image-text,
+			.wp-block-cover-text,
+			h2 {
+				text-align: right;
+			}
+		}
+
 		&.alignleft,
 		&.alignright {
 			width: 100%;
