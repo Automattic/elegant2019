@@ -46,13 +46,7 @@
 	z-index: 999;
 	margin-bottom: calc(.66 * #{$size__spacing-unit});
 
-	@include media(tablet) {
-		z-index: 999;
-	}
-
 	.custom-logo-link {
-		display: block;
-		margin: 0 auto;
 
 		.custom-logo {
 			min-height: inherit;
