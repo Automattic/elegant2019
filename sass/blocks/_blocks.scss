@@ -581,8 +581,8 @@
 			}
 
 			@include media(tablet) {
-				padding-left: calc(10% + 58px + #{$size__spacing-unit});
-				padding-right: calc(10% + 58px + #{$size__spacing-unit});
+				padding-left: calc(10% + 58px + #{2 * $size__spacing-unit});
+				padding-right: calc(10% + 58px + #{2 * $size__spacing-unit});
 				left: calc( -12.5% - 75px );
 				width: calc( 125% + 150px );
 				max-width: calc( 125% + 150px );
@@ -591,6 +591,7 @@
 				.wp-block-cover-text,
 				h2 {
 					padding: 0;
+					max-width: 100%;
 				}
 			}
 		}

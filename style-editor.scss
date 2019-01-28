@@ -312,8 +312,7 @@ figcaption,
 	}
 }
 
-.wp-block[data-type="core/cover"][data-align="wide"],
-.wp-block[data-type="core/cover"][data-align="full"] {
+.wp-block[data-type="core/cover"][data-align="wide"] {
 
 	@include media(tablet) {
 
@@ -335,6 +334,11 @@ figcaption,
 .wp-block[data-type="core/cover"][data-align="full"] {
 
 	@include media(tablet) {
+
+		h2,
+		.wp-block-cover-text {
+			max-width: 100%;
+		}
 
 		.wp-block-cover {
 			padding-left: calc(10% + 64px);
