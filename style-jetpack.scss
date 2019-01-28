@@ -35,6 +35,7 @@ div.sharedaddy > *,
 .entry div.sharedaddy h3.sd-title,
 .entry h3.sd-title {
 	font-family: $font__heading;
+	letter-spacing: normal;
 }
 
 .entry div.sharedaddy h3.sd-title:before,
@@ -49,11 +50,13 @@ div.sharedaddy > *,
 
 .entry #jp-relatedposts h3.jp-relatedposts-headline {
 	font-family: $font__heading;
+	letter-spacing: normal;
 }
 
 .entry #jp-relatedposts .jp-relatedposts-items-visual h4.jp-relatedposts-post-title,
 .entry #jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post {
 	font-family: $font__body;
+	letter-spacing: normal;
 }
 
 .entry #jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-context,
