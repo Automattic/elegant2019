@@ -2019,7 +2019,9 @@ body.page .main-navigation {
 
 .site-logo .custom-logo-link .custom-logo {
   min-height: inherit;
+  max-height: 64px;
   vertical-align: top;
+  width: auto;
 }
 
 .site-title {

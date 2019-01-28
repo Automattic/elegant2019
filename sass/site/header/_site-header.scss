@@ -49,8 +49,10 @@
 	.custom-logo-link {
 
 		.custom-logo {
+			max-height: 64px;
 			min-height: inherit;
 			vertical-align: top;
+			width: auto;
 		}
 	}
 }
