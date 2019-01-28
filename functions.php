@@ -105,8 +105,12 @@ function elegant_business_scripts() {
 	 */
 	wp_enqueue_style( 'elegant-business-fonts', elegant_business_fonts_url(), array(), null );
 
+	// Replace print styles
+	wp_dequeue_style( 'twentynineteen-print-style' );
+	wp_enqueue_style( 'elegant-business-print-style', get_stylesheet_directory_uri() . '/print.css', array(), wp_get_theme()->get( 'Version' ), 'print' );
+
 }
-add_action( 'wp_enqueue_scripts', 'elegant_business_scripts' );
+add_action( 'wp_enqueue_scripts', 'elegant_business_scripts', 99 );
 
 /**
  * Load extras.php file (if necessary).
