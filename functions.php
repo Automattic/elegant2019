@@ -57,6 +57,13 @@ function elegant_business_primary_color_lightness() {
 }
 add_filter( 'twentynineteen_default_lightness', 'elegant_business_primary_color_lightness' );
 
+// Our filter callback function
+function elegant_business_primary_color_lightness_hover() {
+	// Lightness
+	return 40;
+}
+add_filter( 'twentynineteen_default_lightness_hover', 'elegant_business_primary_color_lightness_hover' );
+
 /**
  * Google font URLs.
  */
